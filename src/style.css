@@ -1,0 +1,28 @@
+
+
+@media(max-width : 991px){
+    .fp-tableCell{
+        display: block !important;
+    }
+    .fp-section.fp-table:first-of-type, 
+    .fp-slide.fp-table:first-of-type,
+    .fp-tableCell:first-of-type{
+        height: auto !important
+    }
+}
+.bg-light{
+    background: #4f4f4f !important
+}
+.navbar-nav a{
+    font-family: Poppins !important;
+    font-size: 18px !important;
+    color: #FFF !important;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.navbar-nav .active{
+    color:#FF6600 !important;
+    border-bottom: 1px solid #FFF;
+    width: 80%;
+}
